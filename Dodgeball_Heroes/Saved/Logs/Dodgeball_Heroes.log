@@ -2048,3 +2048,340 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.13-01.43.07:728][623]LogPlayLevel: Display: Destroying online subsystem :Context_3
 [2023.08.13-01.44.13:248][ 42]LogViewport: Scene viewport resized to 1277x728, mode Windowed.
 [2023.08.13-01.44.13:618][ 42]LogViewport: Scene viewport resized to 1367x1210, mode Windowed.
+[2023.08.13-01.54.54:130][688]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.08.13-01.54.54:135][688]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.08.13-01.54.54:141][688]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.08.13-01.54.54:149][689]LogAutomationController: Ignoring very large delta of 46.74 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.08.13-01.54.54:557][690]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.08.13-01.55.04:703][905]LogContentBrowser: Attempting asset rename: NewBlueprint -> FPSCharacter
+[2023.08.13-01.55.04:755][905]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.08.13-01.55.06:021][ 54]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FPSCharacter.FPSCharacter
+[2023.08.13-01.55.06:021][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-01.55.06:021][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.13-01.55.07:441][ 54]LogViewport: Scene viewport resized to 1332x702, mode Windowed.
+[2023.08.13-01.55.33:083][ 68]LogViewport: Scene viewport resized to 1332x703, mode Windowed.
+[2023.08.13-01.55.33:114][ 68]LogViewport: Scene viewport resized to 1332x706, mode Windowed.
+[2023.08.13-01.55.33:138][ 68]LogViewport: Scene viewport resized to 1332x716, mode Windowed.
+[2023.08.13-01.55.33:163][ 68]LogViewport: Scene viewport resized to 1332x732, mode Windowed.
+[2023.08.13-01.55.33:187][ 68]LogViewport: Scene viewport resized to 1332x746, mode Windowed.
+[2023.08.13-01.55.33:205][ 68]LogViewport: Scene viewport resized to 1332x754, mode Windowed.
+[2023.08.13-01.55.33:229][ 68]LogViewport: Scene viewport resized to 1332x762, mode Windowed.
+[2023.08.13-01.55.33:253][ 68]LogViewport: Scene viewport resized to 1332x769, mode Windowed.
+[2023.08.13-01.55.33:278][ 68]LogViewport: Scene viewport resized to 1332x776, mode Windowed.
+[2023.08.13-01.55.33:296][ 68]LogViewport: Scene viewport resized to 1332x780, mode Windowed.
+[2023.08.13-01.55.33:356][ 68]LogViewport: Scene viewport resized to 1332x782, mode Windowed.
+[2023.08.13-01.55.33:388][ 68]LogViewport: Scene viewport resized to 1332x790, mode Windowed.
+[2023.08.13-01.55.33:412][ 68]LogViewport: Scene viewport resized to 1332x797, mode Windowed.
+[2023.08.13-01.55.33:436][ 68]LogViewport: Scene viewport resized to 1332x805, mode Windowed.
+[2023.08.13-01.55.33:465][ 68]LogViewport: Scene viewport resized to 1332x815, mode Windowed.
+[2023.08.13-01.55.33:502][ 68]LogViewport: Scene viewport resized to 1332x823, mode Windowed.
+[2023.08.13-01.55.33:533][ 68]LogViewport: Scene viewport resized to 1332x828, mode Windowed.
+[2023.08.13-01.55.33:563][ 68]LogViewport: Scene viewport resized to 1332x834, mode Windowed.
+[2023.08.13-01.55.33:593][ 68]LogViewport: Scene viewport resized to 1332x841, mode Windowed.
+[2023.08.13-01.55.33:617][ 68]LogViewport: Scene viewport resized to 1332x846, mode Windowed.
+[2023.08.13-01.55.33:647][ 68]LogViewport: Scene viewport resized to 1332x852, mode Windowed.
+[2023.08.13-01.55.33:666][ 68]LogViewport: Scene viewport resized to 1332x862, mode Windowed.
+[2023.08.13-01.55.33:690][ 68]LogViewport: Scene viewport resized to 1332x863, mode Windowed.
+[2023.08.13-01.55.49:484][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.13-01.55.49:511][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSCharacter" FILE="../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset" SILENT=true
+[2023.08.13-01.55.49:607][647]LogSavePackage: Moving output files for package: /Game/Blueprints/FPSCharacter
+[2023.08.13-01.55.49:607][647]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Saved/FPSCharacter053CFF224C81B42CE9A7F18E8995C757.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset'
+[2023.08.13-01.55.49:619][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 1.00 sec)
+[2023.08.13-01.55.49:624][647]AssetCheck: New page: Asset Save: FPSCharacter
+[2023.08.13-01.55.49:624][647]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FPSCharacter.FPSCharacter
+[2023.08.13-01.55.56:788][248]LogSlate: Window 'FPSCharacter' being destroyed
+[2023.08.13-01.55.56:792][248]LogSlate: Window 'FPSCharacter' being destroyed
+[2023.08.13-01.55.56:814][248]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.08.13-01.55.56:814][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-01.56.11:537][ 74]LogAutomationController: Ignoring very large delta of 2.68 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.08.13-01.56.11:568][ 75]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-01.58.19:786][728]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.13-01.58.19:790][728]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.13-01.58.23:801][ 35]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FPSCharacter.FPSCharacter
+[2023.08.13-01.58.23:801][ 35]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-01.58.23:801][ 35]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.13-01.58.23:918][ 35]LogSlate: Took 0.003993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.08.13-02.02.50:638][861]BlueprintLog: New page: Compile FPSCharacter
+[2023.08.13-02.02.50:681][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.08.13-02.02.52:475][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.13-02.02.52:497][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSCharacter" FILE="../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset" SILENT=true
+[2023.08.13-02.02.52:543][  8]LogSavePackage: Moving output files for package: /Game/Blueprints/FPSCharacter
+[2023.08.13-02.02.52:543][  8]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Saved/FPSCharacter2E3B0103408FFD6DEDE7F291597C35D7.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset'
+[2023.08.13-02.02.52:548][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 1.07 sec)
+[2023.08.13-02.02.52:558][  8]AssetCheck: New page: Asset Save: FPSCharacter
+[2023.08.13-02.02.52:558][  8]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FPSCharacter.FPSCharacter
+[2023.08.13-02.02.56:121][368]LogSlate: Window 'Outliner' being destroyed
+[2023.08.13-02.03.05:493][176]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.08.13-02.03.05:501][176]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.08.13-02.03.05:518][176]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.08.13-02.03.05:535][177]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.08.13-02.03.12:973][ 68]LogContentBrowser: Attempting asset rename: NewBlueprint -> FPSGameMode
+[2023.08.13-02.03.12:980][ 68]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.08.13-02.03.14:626][263]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FPSGameMode.FPSGameMode
+[2023.08.13-02.03.14:626][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-02.03.14:627][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.13-02.03.14:718][263]LogViewport: Scene viewport resized to 1333x895, mode Windowed.
+[2023.08.13-02.03.14:751][264]LogViewport: Scene viewport resized to 1333x877, mode Windowed.
+[2023.08.13-02.03.14:810][265]LogViewport: Scene viewport resized to 1333x865, mode Windowed.
+[2023.08.13-02.03.20:560][385]LogSlate: Window 'FPSGameMode' being destroyed
+[2023.08.13-02.03.20:565][385]LogSlate: Window 'FPSGameMode' being destroyed
+[2023.08.13-02.03.20:567][385]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.08.13-02.03.20:567][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.03.20:590][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.13-02.03.20:590][385]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.08.13-02.03.20:590][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.03.24:246][811]LogStatusBar: Looking status bar with open content browser drawer...
+[2023.08.13-02.03.24:246][811]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2023.08.13-02.03.26:486][ 72]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.13-02.03.26:490][ 72]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.13-02.03.50:920][ 18]LogViewport: Scene viewport resized to 1365x1210, mode Windowed.
+[2023.08.13-02.03.50:940][ 20]LogViewport: Scene viewport resized to 1357x1210, mode Windowed.
+[2023.08.13-02.03.50:964][ 22]LogViewport: Scene viewport resized to 1331x1210, mode Windowed.
+[2023.08.13-02.03.50:993][ 24]LogViewport: Scene viewport resized to 1277x1210, mode Windowed.
+[2023.08.13-02.03.51:022][ 26]LogViewport: Scene viewport resized to 1222x1210, mode Windowed.
+[2023.08.13-02.03.51:059][ 28]LogViewport: Scene viewport resized to 1191x1210, mode Windowed.
+[2023.08.13-02.03.51:089][ 30]LogViewport: Scene viewport resized to 1182x1210, mode Windowed.
+[2023.08.13-02.03.57:889][786]LogViewport: Scene viewport resized to 1104x728, mode Windowed.
+[2023.08.13-02.03.58:985][914]LogViewport: Scene viewport resized to 2387x1218, mode Windowed.
+[2023.08.13-02.03.59:683][987]LogViewport: Scene viewport resized to 1104x728, mode Windowed.
+[2023.08.13-02.03.59:998][987]LogViewport: Scene viewport resized to 1182x1210, mode Windowed.
+[2023.08.13-02.05.03:505][699]LogViewport: Scene viewport resized to 2387x1218, mode Windowed.
+[2023.08.13-02.05.09:076][152]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.13-02.05.09:079][152]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.13-02.05.11:602][450]LogStatusBar: Looking status bar with open content browser drawer...
+[2023.08.13-02.05.11:602][450]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2023.08.13-02.05.11:618][450]LogViewport: Scene viewport resized to 2387x790, mode Windowed.
+[2023.08.13-02.05.15:221][862]LogViewport: Scene viewport resized to 2387x794, mode Windowed.
+[2023.08.13-02.05.15:254][865]LogViewport: Scene viewport resized to 2387x803, mode Windowed.
+[2023.08.13-02.05.15:270][866]LogViewport: Scene viewport resized to 2387x809, mode Windowed.
+[2023.08.13-02.05.15:295][868]LogViewport: Scene viewport resized to 2387x819, mode Windowed.
+[2023.08.13-02.05.15:318][870]LogViewport: Scene viewport resized to 2387x825, mode Windowed.
+[2023.08.13-02.05.15:342][872]LogViewport: Scene viewport resized to 2387x828, mode Windowed.
+[2023.08.13-02.05.15:366][874]LogViewport: Scene viewport resized to 2387x830, mode Windowed.
+[2023.08.13-02.05.15:391][876]LogViewport: Scene viewport resized to 2387x834, mode Windowed.
+[2023.08.13-02.05.15:415][878]LogViewport: Scene viewport resized to 2387x838, mode Windowed.
+[2023.08.13-02.05.15:439][880]LogViewport: Scene viewport resized to 2387x840, mode Windowed.
+[2023.08.13-02.05.15:463][882]LogViewport: Scene viewport resized to 2387x843, mode Windowed.
+[2023.08.13-02.05.15:487][884]LogViewport: Scene viewport resized to 2387x847, mode Windowed.
+[2023.08.13-02.05.15:512][886]LogViewport: Scene viewport resized to 2387x851, mode Windowed.
+[2023.08.13-02.05.15:536][888]LogViewport: Scene viewport resized to 2387x855, mode Windowed.
+[2023.08.13-02.05.15:559][890]LogViewport: Scene viewport resized to 2387x858, mode Windowed.
+[2023.08.13-02.05.17:289][ 95]LogViewport: Scene viewport resized to 2387x851, mode Windowed.
+[2023.08.13-02.05.17:313][ 97]LogViewport: Scene viewport resized to 2387x842, mode Windowed.
+[2023.08.13-02.05.17:337][ 99]LogViewport: Scene viewport resized to 2387x832, mode Windowed.
+[2023.08.13-02.05.17:360][101]LogViewport: Scene viewport resized to 2387x825, mode Windowed.
+[2023.08.13-02.05.17:384][103]LogViewport: Scene viewport resized to 2387x823, mode Windowed.
+[2023.08.13-02.05.17:408][105]LogViewport: Scene viewport resized to 2387x821, mode Windowed.
+[2023.08.13-02.05.17:431][107]LogViewport: Scene viewport resized to 2387x816, mode Windowed.
+[2023.08.13-02.05.17:454][109]LogViewport: Scene viewport resized to 2387x814, mode Windowed.
+[2023.08.13-02.05.17:478][111]LogViewport: Scene viewport resized to 2387x810, mode Windowed.
+[2023.08.13-02.05.17:502][113]LogViewport: Scene viewport resized to 2387x807, mode Windowed.
+[2023.08.13-02.05.17:575][121]LogViewport: Scene viewport resized to 2387x804, mode Windowed.
+[2023.08.13-02.05.17:599][123]LogViewport: Scene viewport resized to 2387x799, mode Windowed.
+[2023.08.13-02.05.17:632][124]LogViewport: Scene viewport resized to 2387x791, mode Windowed.
+[2023.08.13-02.05.49:678][ 16]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.13-02.05.49:682][ 16]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.13-02.05.55:830][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.13-02.05.55:880][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.08.13-02.05.55:886][730]LogSavePackage: Moving output files for package: /Game/Levels/TestMap
+[2023.08.13-02.05.55:886][730]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Saved/TestMap3D0C34974001F9B7DB6C208B12C14BDB.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Levels/TestMap.umap'
+[2023.08.13-02.05.55:893][730]LogFileHelpers: Saving map 'TestMap' took 0.042
+[2023.08.13-02.05.55:898][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.14 sec)
+[2023.08.13-02.05.55:904][730]AssetCheck: New page: Asset Save: TestMap
+[2023.08.13-02.05.55:904][730]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TestMap.TestMap
+[2023.08.13-02.06.23:176][512]LogViewport: Scene viewport resized to 1104x471, mode Windowed.
+[2023.08.13-02.06.23:546][512]LogViewport: Scene viewport resized to 1182x786, mode Windowed.
+[2023.08.13-02.06.39:313][  2]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.13-02.06.39:317][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.13-02.06.39:317][  2]PIE: New page: PIE session: TestMap (14/08/2023, 2:06:39 am)
+[2023.08.13-02.06.39:342][  2]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.13-02.06.39:344][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001512s)
+[2023.08.13-02.06.39:344][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.001550s)
+[2023.08.13-02.06.39:344][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-02.06.39:344][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.13-02.06.39:344][  2]LogAIModule: Creating AISystem for world TestMap
+[2023.08.13-02.06.39:344][  2]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2023.08.13-02.06.39:365][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.08.13-02.06.39:367][  2]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.08.13-02.06.39:367][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.13-02.06.39:367][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.13-02.06.39:367][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.13-02.06.39:367][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.13-02.06.39:367][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.13-02.06.39:367][  2]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.13-02.06.39:367][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.13-02.06.39:367][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.13-02.06.39:368][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.13-02.06.39:368][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.13-02.06.39:368][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.13-02.06.39:370][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.13-02.06.39:396][  2]LogAudioMixer: Display: Using Audio Hardware Device U34G3G3R3 (NVIDIA High Definition Audio)
+[2023.08.13-02.06.39:397][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.13-02.06.39:397][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.13-02.06.39:397][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.13-02.06.39:397][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.08.13-02.06.39:397][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.08.13-02.06.39:399][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.08.13-02.06.39:399][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.08.13-02.06.39:399][  2]LogInit: FAudioDevice initialized with ID 4.
+[2023.08.13-02.06.39:399][  2]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestMap'.
+[2023.08.13-02.06.39:399][  2]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.13-02.06.39:401][  2]LogLoad: Game class is 'FPSGameMode_C'
+[2023.08.13-02.06.39:402][  2]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.13-14.06.39
+[2023.08.13-02.06.39:402][  2]LogWorld: Bringing up level for play took: 0.000543
+[2023.08.13-02.06.39:404][  2]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.08.13-02.06.39:598][  2]PIE: Server logged in
+[2023.08.13-02.06.39:598][  2]PIE: Play in editor total start time 0.282 seconds.
+[2023.08.13-02.06.42:422][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.13-02.06.42:422][314]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.13-02.06.42:422][314]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.13-02.06.42:422][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.06.42:425][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.13-02.06.42:430][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.06.42:450][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.13-02.06.42:450][314]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.13-02.06.42:450][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.13-02.06.42:452][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.13-02.06.42:457][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.13-02.06.42:498][315]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.08.13-02.06.49:027][ 70]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.13-02.06.49:031][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.13-02.06.49:031][ 70]PIE: New page: PIE session: TestMap (14/08/2023, 2:06:49 am)
+[2023.08.13-02.06.49:052][ 70]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.13-02.06.49:053][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001463s)
+[2023.08.13-02.06.49:053][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.001499s)
+[2023.08.13-02.06.49:053][ 70]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-02.06.49:053][ 70]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.13-02.06.49:054][ 70]LogAIModule: Creating AISystem for world TestMap
+[2023.08.13-02.06.49:054][ 70]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2023.08.13-02.06.49:076][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.08.13-02.06.49:076][ 70]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.08.13-02.06.49:076][ 70]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.13-02.06.49:076][ 70]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.13-02.06.49:077][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.13-02.06.49:077][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.13-02.06.49:077][ 70]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.13-02.06.49:077][ 70]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.13-02.06.49:077][ 70]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.13-02.06.49:077][ 70]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.13-02.06.49:077][ 70]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.13-02.06.49:077][ 70]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.13-02.06.49:077][ 70]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.13-02.06.49:079][ 70]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.13-02.06.49:105][ 70]LogAudioMixer: Display: Using Audio Hardware Device U34G3G3R3 (NVIDIA High Definition Audio)
+[2023.08.13-02.06.49:106][ 70]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.13-02.06.49:106][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.13-02.06.49:106][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.13-02.06.49:106][ 70]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.08.13-02.06.49:106][ 70]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.08.13-02.06.49:108][ 70]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.08.13-02.06.49:108][ 70]LogInit: FAudioDevice initialized with ID 5.
+[2023.08.13-02.06.49:108][ 70]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.08.13-02.06.49:108][ 70]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestMap'.
+[2023.08.13-02.06.49:108][ 70]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.08.13-02.06.49:110][ 70]LogLoad: Game class is 'FPSGameMode_C'
+[2023.08.13-02.06.49:111][ 70]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.13-14.06.49
+[2023.08.13-02.06.49:111][ 70]LogWorld: Bringing up level for play took: 0.000460
+[2023.08.13-02.06.49:113][ 70]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.08.13-02.06.49:114][ 70]PIE: Server logged in
+[2023.08.13-02.06.49:114][ 70]PIE: Play in editor total start time 0.082 seconds.
+[2023.08.13-02.06.59:154][225]Set new viewmode: Wireframe
+[2023.08.13-02.06.59:765][298]Set new viewmode: Wireframe
+[2023.08.13-02.07.00:940][439]Set new viewmode: Wireframe
+[2023.08.13-02.07.01:353][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.13-02.07.01:353][484]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.13-02.07.01:353][484]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.13-02.07.01:354][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.07.01:356][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.13-02.07.01:361][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.07.01:381][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.13-02.07.01:381][484]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.08.13-02.07.01:381][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.13-02.07.01:383][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.13-02.07.01:388][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.08.13-02.07.01:424][485]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.08.13-02.08.58:425][203]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.13-02.08.58:429][203]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.13-02.08.59:452][314]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FPSCharacter.FPSCharacter
+[2023.08.13-02.08.59:452][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-02.08.59:452][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.13-02.10.26:252][533]BlueprintLog: New page: Compile FPSCharacter
+[2023.08.13-02.10.26:314][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.08.13-02.10.27:290][620]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.13-02.10.27:311][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSCharacter" FILE="../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset" SILENT=true
+[2023.08.13-02.10.27:317][620]LogSavePackage: Moving output files for package: /Game/Blueprints/FPSCharacter
+[2023.08.13-02.10.27:317][620]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Saved/FPSCharacter3633054942C30018AFEA3786B95680AA.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset'
+[2023.08.13-02.10.27:322][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 1.17 sec)
+[2023.08.13-02.10.27:330][620]AssetCheck: New page: Asset Save: FPSCharacter
+[2023.08.13-02.10.27:330][620]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FPSCharacter.FPSCharacter
+[2023.08.13-02.11.02:969][703]BlueprintLog: New page: Compile FPSCharacter
+[2023.08.13-02.11.03:012][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.08.13-02.11.03:471][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.13-02.11.03:494][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSCharacter" FILE="../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset" SILENT=true
+[2023.08.13-02.11.03:500][742]LogSavePackage: Moving output files for package: /Game/Blueprints/FPSCharacter
+[2023.08.13-02.11.03:500][742]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Saved/FPSCharacterDCCC95474239EF150AC5E3AF8BBE87B3.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset'
+[2023.08.13-02.11.03:505][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 1.21 sec)
+[2023.08.13-02.11.03:514][742]AssetCheck: New page: Asset Save: FPSCharacter
+[2023.08.13-02.11.03:514][742]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FPSCharacter.FPSCharacter
+[2023.08.13-02.11.09:021][ 99]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.13-02.11.09:025][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.13-02.11.09:025][ 99]PIE: New page: PIE session: TestMap (14/08/2023, 2:11:09 am)
+[2023.08.13-02.11.09:025][ 99]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.13-02.11.09:026][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001577s)
+[2023.08.13-02.11.09:026][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.001624s)
+[2023.08.13-02.11.09:026][ 99]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.13-02.11.09:027][ 99]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.13-02.11.09:027][ 99]LogAIModule: Creating AISystem for world TestMap
+[2023.08.13-02.11.09:027][ 99]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2023.08.13-02.11.09:049][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.08.13-02.11.09:051][ 99]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.08.13-02.11.09:051][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.13-02.11.09:051][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.13-02.11.09:051][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.13-02.11.09:051][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.13-02.11.09:051][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.13-02.11.09:051][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.13-02.11.09:051][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.13-02.11.09:051][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.13-02.11.09:051][ 99]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.13-02.11.09:051][ 99]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.13-02.11.09:051][ 99]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.13-02.11.09:053][ 99]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.13-02.11.09:079][ 99]LogAudioMixer: Display: Using Audio Hardware Device U34G3G3R3 (NVIDIA High Definition Audio)
+[2023.08.13-02.11.09:080][ 99]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.13-02.11.09:080][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.13-02.11.09:080][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.13-02.11.09:080][ 99]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.08.13-02.11.09:080][ 99]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.08.13-02.11.09:082][ 99]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.08.13-02.11.09:082][ 99]LogInit: FAudioDevice initialized with ID 6.
+[2023.08.13-02.11.09:082][ 99]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.08.13-02.11.09:082][ 99]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestMap'.
+[2023.08.13-02.11.09:082][ 99]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.13-02.11.09:085][ 99]LogLoad: Game class is 'FPSGameMode_C'
+[2023.08.13-02.11.09:086][ 99]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.13-14.11.09
+[2023.08.13-02.11.09:086][ 99]LogWorld: Bringing up level for play took: 0.000491
+[2023.08.13-02.11.09:088][ 99]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.08.13-02.11.09:089][ 99]PIE: Server logged in
+[2023.08.13-02.11.09:089][ 99]PIE: Play in editor total start time 0.065 seconds.
+[2023.08.13-02.11.36:412][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.13-02.11.36:412][356]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.13-02.11.36:412][356]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.13-02.11.36:412][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.11.36:415][356]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.13-02.11.36:419][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.13-02.11.36:441][356]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.13-02.11.36:441][356]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.13-02.11.36:441][356]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.13-02.11.36:442][356]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.13-02.11.36:446][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.13-02.11.36:448][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.08.13-02.11.36:486][357]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.08.13-02.11.52:894][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.13-02.11.52:938][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.08.13-02.11.52:944][375]LogSavePackage: Moving output files for package: /Game/Levels/TestMap
+[2023.08.13-02.11.52:944][375]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Saved/TestMapF38D084D4D4EC6FFF65EE5B3E82095E8.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Levels/TestMap.umap'
+[2023.08.13-02.11.52:953][375]LogFileHelpers: Saving map 'TestMap' took 0.037
+[2023.08.13-02.11.52:957][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.27 sec)
+[2023.08.13-02.11.52:963][375]AssetCheck: New page: Asset Save: TestMap
+[2023.08.13-02.11.52:963][375]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TestMap.TestMap

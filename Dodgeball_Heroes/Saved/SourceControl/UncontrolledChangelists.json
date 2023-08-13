@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"D:/Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Levels/TestMap.umap"
+				"D:/Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Levels/TestMap.umap",
+				"D:/Project Work/Unreal Special Topic/UnrealTopic/Dodgeball_Heroes/Content/Blueprints/FPSCharacter.uasset"
 			]
 		}
 	]
