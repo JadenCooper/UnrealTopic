@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/Levels/Main.umap"
+				"D:/Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/Levels/Main.umap",
+				"D:/Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/BP_ThirdPersonCharacter.uasset",
+				"D:/Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
 			]
 		}
 	]
