@@ -34,10 +34,10 @@ void AMovingPlatform::Tick(float DeltaTime)
 
 	if(DistanceTraveled > MoveDistance)
 	{
-		PlatformVelocity = -PlatformVelocity;
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		StartLocation += MoveDirection * MoveDistance;
 		SetActorLocation(StartLocation);
+	    PlatformVelocity = -PlatformVelocity;
 	}
 }
 
