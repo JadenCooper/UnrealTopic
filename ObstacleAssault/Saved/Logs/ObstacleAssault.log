@@ -1753,3 +1753,168 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.08-07.43.10:063][713]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.724
 [2023.10.08-08.10.16:443][940]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
 [2023.10.08-08.10.16:443][940]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.10.08-08.15.44:377][  7]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.10.08-08.15.47:157][300]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.10.08-08.15.58:024][423]LogLiveCoding: Display:    Creating library D:\Project Work\Unreal Special Topic\UnrealTopic\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_3.lib and object D:\Project Work\Unreal Special Topic\UnrealTopic\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_3.exp
+[2023.10.08-08.15.58:135][428]LogClass: UPackage /Script/ObstacleAssault Reload.
+[2023.10.08-08.15.58:135][428]LogClass: UClass MovingPlatform Reload.
+[2023.10.08-08.15.58:136][428]LogClass: Could not find existing class MovingPlatform in package /Script/ObstacleAssault for reload, assuming new or modified class
+[2023.10.08-08.15.58:148][428]Re-instancing MovingPlatform after reload.
+[2023.10.08-08.15.58:202][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.10.08-08.15.58:272][429]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.10.08-08.15.58:273][429]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.10.08-08.16.15:378][634]Cmd: DELETE
+[2023.10.08-08.16.15:378][634]Cmd: ACTOR DELETE
+[2023.10.08-08.16.16:405][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.10.08-08.16.16:437][634]LogEditorActor: Deleted 1 Components (0.023 secs)
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: ================================================
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Total job queries 160, among them cache hits 74 (46.25%)
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Tracking 85 distinct input hashes that result in 59 distinct outputs (69.41%)
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: RAM used: 211.78 KiB of 819.20 MiB budget. Usage: 0.03%
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Shaders Compiled: 3
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Jobs assigned 4, completed 3 (75.00%)
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Job execution time: average 5.68 s, max 5.71 s
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Job life time (pending + execution): average 5.75 s, max 5.79
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.79 s
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.08-08.16.19:142][892]LogShaderCompilers: Display: Average processing rate: 0.52 jobs/sec
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display: Total thread time: 5.017 s
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display: Total thread preprocess time: 3.029 s
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display: Percentage time preprocessing: 60.37%
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display: Effective parallelization: 0.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.77 sec, max 1.77 sec, min 1.77 sec)
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 1.61 sec, max 1.61 sec, min 1.61 sec)
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 35.20% of total time (compiled    1 times, average 1.77 sec, max 1.77 sec, min 1.77 sec)
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display:                                                 FLumenCardVS - 32.67% of total time (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 32.13% of total time (compiled    1 times, average 1.61 sec, max 1.61 sec, min 1.61 sec)
+[2023.10.08-08.16.19:143][892]LogShaderCompilers: Display: ================================================
+[2023.10.08-08.16.19:989][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-08.16.20:185][954]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-08.16.27:963][697]Cmd: POLY SELECT ALL
+[2023.10.08-08.17.09:694][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.08-08.17.09:768][490]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Main_Auto2
+[2023.10.08-08.17.09:768][490]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Saved/Main_Auto2951F700045D5D073FAA580A6772DDDFA.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Saved/Autosaves/Game/Levels/Main_Auto2.umap'
+[2023.10.08-08.17.09:775][490]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main' took 0.090
+[2023.10.08-08.17.09:775][490]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.090
+[2023.10.08-08.17.37:729][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:730][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:730][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:731][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:731][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:732][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:732][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:732][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:733][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:733][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:733][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:734][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:734][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:735][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:735][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:735][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:736][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:736][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:736][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:737][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:737][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:737][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:738][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:738][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:738][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:739][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:739][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:740][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:740][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:741][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:741][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:741][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:742][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:742][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:742][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:743][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:743][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:744][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:744][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:744][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:745][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:748][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:749][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.37:749][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.08-08.17.51:312][952]LogViewport: Scene viewport resized to 513x477, mode Windowed.
+[2023.10.08-08.17.53:198][ 65]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-08.19.35:684][999]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.10.08-08.19.41:792][ 17]LogLiveCoding: Display:    Creating library D:\Project Work\Unreal Special Topic\UnrealTopic\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_4.lib and object D:\Project Work\Unreal Special Topic\UnrealTopic\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_4.exp
+[2023.10.08-08.19.43:283][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.08-08.19.43:300][ 19]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.10.08-08.19.43:300][ 19]LogLiveCoding: Display: Live coding succeeded
+[2023.10.08-08.19.50:571][652]ImportText (MyVector): Missing opening parenthesis: 1586.000399
+[2023.10.08-08.19.58:217][452]LogViewport: Scene viewport resized to 513x477, mode Windowed.
+[2023.10.08-08.20.10:161][560]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-08.20.10:167][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-08.20.10:167][560]PIE: New page: PIE session: Main (9/10/2023, 10:20:10 am)
+[2023.10.08-08.20.10:167][560]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2023.10.08-08.20.10:196][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029283s)
+[2023.10.08-08.20.10:196][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.029318s)
+[2023.10.08-08.20.10:196][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-08.20.10:196][560]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.08-08.20.10:197][560]LogAIModule: Creating AISystem for world Main
+[2023.10.08-08.20.10:197][560]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2023.10.08-08.20.10:241][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.10.08-08.20.10:242][560]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.10.08-08.20.10:242][560]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-08.20.10:242][560]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-08.20.10:242][560]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-08.20.10:242][560]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-08.20.10:242][560]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-08.20.10:242][560]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.08-08.20.10:242][560]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-08.20.10:242][560]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-08.20.10:242][560]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-08.20.10:242][560]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-08.20.10:242][560]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-08.20.10:244][560]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-08.20.10:272][560]LogAudioMixer: Display: Using Audio Hardware Device U34G3G3R3 (NVIDIA High Definition Audio)
+[2023.10.08-08.20.10:272][560]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-08.20.10:272][560]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-08.20.10:272][560]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-08.20.10:272][560]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.10.08-08.20.10:272][560]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.10.08-08.20.10:274][560]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.10.08-08.20.10:274][560]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.10.08-08.20.10:274][560]LogInit: FAudioDevice initialized with ID 4.
+[2023.10.08-08.20.10:274][560]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2023.10.08-08.20.10:275][560]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.08-08.20.10:281][560]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.08-08.20.10:295][560]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.10.08-21.20.10
+[2023.10.08-08.20.11:856][560]LogWorld: Bringing up level for play took: 1.574216
+[2023.10.08-08.20.11:857][560]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.10.08-08.20.11:880][560]PIE: Server logged in
+[2023.10.08-08.20.11:881][560]PIE: Play in editor total start time 1.715 seconds.
+[2023.10.08-08.20.52:341][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-08.20.52:341][ 62]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2023.10.08-08.20.52:341][ 62]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-08.20.52:343][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-08.20.52:346][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-08.20.52:349][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-08.20.52:359][ 62]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-08.20.52:359][ 62]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.08-08.20.52:359][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.08-08.20.52:362][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.08-08.20.52:367][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-08.20.52:371][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.08-08.20.52:427][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.10.08-08.23.53:352][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-08.23.53:417][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.08-08.23.53:437][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.08-08.23.53:512][730]LogSavePackage: Moving output files for package: /Game/Levels/Main
+[2023.10.08-08.23.53:513][730]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Saved/MainB5CD75484BA2F6E565D84386DBD26918.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/Levels/Main.umap'
+[2023.10.08-08.23.53:596][730]LogFileHelpers: Saving map 'Main' took 0.179
+[2023.10.08-08.23.53:601][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 248 ms
+[2023.10.08-08.23.53:626][730]AssetCheck: New page: Asset Save: Main
+[2023.10.08-08.23.53:668][730]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Main.Main
