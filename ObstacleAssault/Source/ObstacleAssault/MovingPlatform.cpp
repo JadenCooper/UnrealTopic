@@ -16,6 +16,10 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	MyInt += 5;
+
+	Output = InputA + InputB;
+	FloatOutput = FloatInputA + FloatInputB;
 }
 
 // Called every frame
