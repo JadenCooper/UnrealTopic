@@ -17,7 +17,6 @@ void AMovingPlatform::BeginPlay()
 	Super::BeginPlay();
 
 	StartLocation = GetActorLocation();
-
 	UE_LOG(LogTemp, Display, TEXT("Configured Moved Distance: %f"), MoveDistance);
 }
 
@@ -26,6 +25,12 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
+}
+
+void AMovingPlatform::MovePlatform(float DeltaTime)
+{
 	FVector CurrentLocation = GetActorLocation();
 
 	CurrentLocation += PlatformVelocity * DeltaTime;
@@ -36,13 +41,19 @@ void AMovingPlatform::Tick(float DeltaTime)
 
 	if(DistanceTraveled > MoveDistance)
 	{
+		FString Name = GetName();
 		float Overshoot = DistanceTraveled - MoveDistance;
-		UE_LOG(LogTemp, Display, TEXT("Overshot By: %f"), Overshoot);
+		UE_LOG(LogTemp, Display, TEXT("%s Overshot By: %f"), *Name ,Overshoot);
 
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		StartLocation += MoveDirection * MoveDistance;
 		SetActorLocation(StartLocation);
 	    PlatformVelocity = -PlatformVelocity;
 	}
+}
+
+void AMovingPlatform::RotatePlatform(float DeltaTime)
+{
+
 }
 

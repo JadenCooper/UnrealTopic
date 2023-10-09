@@ -1705,3 +1705,21 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.09-03.38.29:965][621]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Saved/Main_Auto291D1572143B2A74EEB17BD86535442D4.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Saved/Autosaves/Game/Levels/Main_Auto2.umap'
 [2023.10.09-03.38.30:029][621]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main' took 0.421
 [2023.10.09-03.38.30:029][621]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.421
+[2023.10.09-04.22.12:214][501]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.10.09-04.23.34:649][  8]LogLiveCoding: Display:    Creating library D:\Project Work\Unreal Special Topic\UnrealTopic\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_1.lib and object D:\Project Work\Unreal Special Topic\UnrealTopic\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_1.exp
+[2023.10.09-04.23.34:899][  9]LogClass: UPackage /Script/ObstacleAssault Reload.
+[2023.10.09-04.23.34:899][  9]LogClass: UClass MovingPlatform Reload.
+[2023.10.09-04.23.34:899][  9]LogClass: Could not find existing class MovingPlatform in package /Script/ObstacleAssault for reload, assuming new or modified class
+[2023.10.09-04.23.34:924][  9]Re-instancing MovingPlatform after reload.
+[2023.10.09-04.23.35:133][  9]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.10.09-04.23.35:622][ 10]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.10.09-04.23.35:622][ 10]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.10.09-04.34.20:597][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.09-04.34.20:754][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.09-04.34.20:917][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.10.09-04.34.20:996][642]LogSavePackage: Moving output files for package: /Game/Levels/Main
+[2023.10.09-04.34.20:996][642]LogSavePackage: Moving '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Saved/Main6A390F4C4EA6FDA770774C831C29C28E.tmp' to '../../../../../Project Work/Unreal Special Topic/UnrealTopic/ObstacleAssault/Content/Levels/Main.umap'
+[2023.10.09-04.34.21:125][642]LogFileHelpers: Saving map 'Main' took 0.372
+[2023.10.09-04.34.21:130][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 532 ms (total: 611 ms)
+[2023.10.09-04.34.21:141][642]AssetCheck: New page: Asset Save: Main
+[2023.10.09-04.34.21:141][642]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Main.Main
