@@ -21,9 +21,17 @@ private:
 	TSubclassOf<class UUserWidget> LoseScreenClass;
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class UUserWidget> WinScreenClass;
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UUserWidget> HUDClass;
 
 	UPROPERTY(EditAnywhere)
 	float RestartDelay = 5;
 
 	FTimerHandle RestartTimer;
+
+	UPROPERTY()
+	UUserWidget *HUD;
+
+protected:
+	virtual void BeginPlay() override;
 };

@@ -32,6 +32,11 @@ bool AShooterCharacter::IsDead() const
 	else return false;
 }
 
+float AShooterCharacter::GetHealthPercent() const
+{
+	return Health / MaxHealth;
+}
+
 // Called every frame
 void AShooterCharacter::Tick(float DeltaTime)
 {
